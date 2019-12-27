@@ -18,12 +18,7 @@ def minimumBribes(q):
         for j in range(max(0,q[i]-2),i,1):      #for elements before q[i]
             if(q[i]<q[j]):      #comparing ith and all (i-1)'s elements
                 swap+=1
-            
-        
     print (swap)
-
-            
-      
 
 if __name__ == '__main__':
     t = int(input())
